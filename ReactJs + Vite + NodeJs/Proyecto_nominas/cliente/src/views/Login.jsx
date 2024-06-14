@@ -21,7 +21,7 @@ export async function loader(info) {
       showConfirmButton: false
     });
     setTimeout(() => {
-      location.href = "http://localhost:5173/menu";
+      location.href = "https://portfoliocliente-3ze9e2gr7-srtowns-projects.vercel.app/menu";
     }, 1400);
   }
   return usuarios
